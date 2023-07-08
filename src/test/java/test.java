@@ -19,6 +19,7 @@ public class test {
                     new BrowserType.LaunchOptions().setHeadless(false)
             );
 
+            
             Page page = browser.newPage();
             page.navigate("https://www.collegekickstart.com/");
             page.setViewportSize(1920, 1080);
